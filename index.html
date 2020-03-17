@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Bot-O-Mat</title>
+</head>
+<div class="header">
+    <div class="pageTitle">
+        <h1>Bot-O-Mat</h1>
+        <h5>Welcome To The Bot Factory!</h5>
+    </div>
+</div>
+<body>
+    <div class="container" style="height: 800px;">
+        <div class="botForm">
+            <label for="botName">Select Bot Name...</label>
+            <input type="text" class="form-control" id="botName">
+            <div class="dropdown">
+                <div class="form-group">
+                    <label for="botTypeSelector" style="margin-top: 8px;">Select Bot Type...</label>
+                    <select class="form-control" id="botTypeSelector">
+                        <option>Unipedal</option>
+                        <option>Bipedal</option>
+                        <option>Quadrupedal</option>
+                        <option>Arachnid</option>
+                        <option>Radial</option>
+                        <option>Aeronautical</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="leaderboard">
+            <h3>LeaderBoard:</h3>
+            <div class="LeaderBots">
+                <h6 style="font-size: 70%; text-align: center;">Shows time in milliseconds.</h6>
+                <h6>1. <span id="leader1Name"></span> <span id="leader1Time"></span></h6>
+                <h6>2. <span id="leader2Name"></span> <span id="leader2Time"></span></h6>
+                <h6>3. <span id="leader3Name"></span> <span id="leader3Time"></span></h6>
+            </div>
+        </div>
+        <div class="buttonDiv">
+            <button type="button" class="btn btn-primary" id="addButton" style="width: 100%;" onclick="getInputValue();">Add Bot</button>
+        </div>
+        <div class="bots" id="container">
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+    height: 6em;
+    background-color: #428DDB ;
+    color: #fff;
+}
+
+.pageTitle h1{
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+.pageTitle h5{
+    padding-bottom: 5px;
+}
+
+.botForm{
+    float: left;
+    width: 70%;
+}
+
+.form-control{
+    background-color: #fdfdfd;
+}
+
+.leaderboard{
+    float: right;
+    margin-top: 30px;
+    width: 15%;
+}
+
+
+body{
+    background-color: #F3F3F3;
+}
+
+.card{
+    width:30%; 
+    height: 600px; 
+    min-width: 300px; 
+    float:left; 
+    margin-right: 2%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+.cardButton{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttonDiv{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding-top: 2em;
+}
+
+.taskDone{
+    color: green;
+    text-decoration: line-through;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
