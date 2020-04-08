@@ -1,8 +1,5 @@
 # BOT-O-MAT
-From the description of the project, I decided to tackle the challenge with web technologies such as HTML, CSS and Javascript.
-This decision was based on my understanding of the specifications which led me to design an easy to use application with Javascript taking care of all the logistics. With just a small amount of libraries used, the application is very lightweight. Also, a great benefit of using web technologies is that my application is cross-platform.
-
-The application has a small alteration to the specifications provided which is worth mentioning. Since the tasks assigned to each bot are constant (5 tasks per bot), I decided to meassure the time it took to complete the set tasks instead of the amount of tasks completed. Also, each time to complete a task varies from bot to bot. A random variable value of time is added to each "eta" of the tasks per bot as to make some bots faster than others.
+Bot-o-Mat is a web application that consists of a "creator" of robots and assignment of tasks to said robots. It was created to show knowledge of fundamental javascript concepts. With just a small amount of libraries used, the application is very lightweight. 
 
 ## Tutorial
 The application layout has 3 main sections.
@@ -33,5 +30,4 @@ As soon as every created bot finished their tasks, more bots can be created.
 The application is working with Google Chrome v.80.0 as well as Modzilla FireFox v.73.0.
 
 ## Authors
-- Scott Hoffman <https://github.com/scottshane>
-- Olivia Osby <https://github.com/oosby>
+- Daniel Alfaro Rizek
